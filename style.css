@@ -195,4 +195,15 @@ h2 {
     margin: 0;
     background-color: #9394a8;
     border-color: white;
+    transition: transform .2s;
+}
+
+.button2:hover {
+    transform: scale(1.09);
+}
+
+.footer {
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
 }

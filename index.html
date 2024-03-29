@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
+    <div id="home" class="header">
         <div class="header-container1">
             <div class="logo">
                 <img src="./images/gopilates-favicon-black.png" alt="GoPilates logo" height="60px" width="auto">
@@ -17,7 +17,10 @@
             <div>
                 <ul class="nav-bar">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#benefits">Benefits</a>
                     </li>
                     <li>
                         <a href="#">Routines</a>
@@ -25,12 +28,15 @@
                     <li>
                         <a href="#">Calendars</a>
                     </li>
+                    <li>
+                        <a href="#register"">Register</a>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="header-container2">
             <div class="container">
-                <img class="img-logo" src="./images/gopilates-high-resolution-logo-transparent.png" alt="GoPilates logo" height="120px" width="auto">
+                <img class="img-logo" src="./images/gopilates-high-resolution-logo-transparent.png" alt="GoPilates logo" height="140px" width="auto">
                 <h1>GoPilates is awesome</h1>
                 <p class="text">Improve your health habits and get a better life</p>
                 <button id="button1">Sign up</button>
@@ -39,23 +45,23 @@
         </div>
     </div>
     <div class="main-section">
-        <div class="first-section">
+        <div class="first-section" id="benefits">
             <h2>Some benefits</h2>
             <div class="images-cont">
                 <div class="card">
-                    <img class="image" src="./images/pexels-karolina-grabowska-4498452.jpg" alt="a plant" width="auto" height="50px">
+                    <img class="image" src="./images/pexels-karolina-grabowska-4498452.jpg" alt="A woman watching her laptop" width="auto" height="50px">
                     <p class="text-main">Workout anytime and anywhere</p>
                 </div>
                 <div class="card">
-                    <img class="image" src="./images/pexels-jane-trang-doan-1092730.jpg" alt="a plant" width="auto" height="50px">
+                    <img class="image" src="./images/pexels-jane-trang-doan-1092730.jpg" alt="Salad" width="auto" height="50px">
                     <p class="text-main">Get better health and food habits</p>
                 </div>
                 <div class="card">
-                    <img class="image" src="./images/fitness-1948813_1280.jpg" alt="a plant" width="auto" height="50px">
+                    <img class="image" src="./images/fitness-1948813_1280.jpg" alt="People doing exercise" width="auto" height="50px">
                     <p class="text-main">Watch and download free guides and tutorials</p>
                 </div>
                 <div class="card">
-                    <img class="image" src="./images/calendar-660670_1280.jpg" alt="a plant" width="auto" height="50px">
+                    <img class="image" src="./images/calendar-660670_1280.jpg" alt="Calendar" width="auto" height="50px">
                     <p class="text-main">Save time from booking Pilates classes</p>
                 </div>
             </div>
@@ -68,7 +74,7 @@
         </div>
     </div>
     <div class="other-section">
-        <div class="call-to-action">
+        <div class="call-to-action" id="register">
             <div class="call-cont">
                 <h2 id="heading">Call to action! It's time!</h2>
                 <p id="heading">Sign up for our product by clicking that button right over there!</p>

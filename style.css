@@ -56,8 +56,8 @@ a:hover {
     background-color: #a49db8;
 }
 
-.image {
-    height: 360px;
+#image {
+    height: 390px;
     width: auto;
 }
 
@@ -100,4 +100,47 @@ button {
 button:hover{
     background-color: #c4c4c4;
     color: rgb(90, 90, 90);
+}
+
+#image {
+    box-shadow: 12px 15px 19px #474747a1;
+}
+
+.first-section {
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+h2 {
+    margin: 50px;
+    font-size: 36px;
+}
+
+.images-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 63px;
+}
+
+.image {
+    height: 180px;
+    width: auto;
+    border-radius: 10px;
+    border: 4px solid #bbbdf6;
+    margin: auto;
+    transition: transform .2s;
+}
+
+.image:hover {
+    transform: scale(1.07);
+}
+
+.text-main {
+    padding-top: 10px;
+    color: #434344;
+}
+
+.card {
+    width: 280px 0px;
 }
